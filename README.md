@@ -18,3 +18,6 @@
 ### 🍄 Item list
 > **3장 : 모든 객체의 공통 메서드** <br>
 [예) Item10 : equals는 일반 규약을 지켜 재정의하라](app/src/main/java/com/programmers/java/chapt3/item10/README.md)
+
+> **4장 : 클래스와 인터페이스** <br>
+[예) Item15 : 클래스와 멤버의 접근 권한을 최소화하라](app/src/main/java/com/programmers/java/chapt3/item10/README.md)
