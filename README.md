@@ -15,6 +15,6 @@
 - 발표자료가 저장되어있는 링크에는 발표자료 외에 발표에 참고할 수 있는 코드 등을 저장해두셔도 됩니다.
 <br>
 
-## 🍄 Item list
+### 🍄 Item list
 ### 3장 : 모든 객체의 공통 메서드
 - [예) Item10 : equals는 일반 규약을 지켜 재정의하라](app/src/main/java/com/programmers/java/chapt3/item10/README.md)
