@@ -17,4 +17,4 @@
 
 ### 🍄 Item list
 > **3장 : 모든 객체의 공통 메서드**
-  - [예) Item10 : equals는 일반 규약을 지켜 재정의하라](app/src/main/java/com/programmers/java/chapt3/item10/README.md)
+[예) Item10 : equals는 일반 규약을 지켜 재정의하라](app/src/main/java/com/programmers/java/chapt3/item10/README.md)
