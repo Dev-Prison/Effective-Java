@@ -1,4 +1,4 @@
-# Effective-Java <br>
+# Effective-Java
 <br>
 
 ### ☕️ 스터디 규칙
