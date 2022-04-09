@@ -1,5 +1,5 @@
 # Effective-Java
-이펙티브 자바 스터디 Repository
+Effective Java 스터디를 위한 Repository
 
 ### ☕️ 스터디 규칙
 - 스터디 당일 낮 12시 전까지 발표자는 발표자료를 Github에 업로드 해야 합니다. (지각시 커피 +2)
