@@ -17,8 +17,7 @@
 
 ### 🍄 Item list
 > **3장 : 모든 객체의 공통 메서드** <br>
-> - [Item10 : equals는 일반규칙을 지켜 재정의하라](app/src/main/java/com/programmers/java/chapt3/item10/item10_발표.md)
-> - [Item11 : equals를 재정의하려거든 hashCode도 재정의하라](https://github.com/Dev-Prison/Effective-Java/blob/yong/item11/Item11_equals를_재정의하려거든_hashCode도_재정의하라.md)
+[Item11 : equals를 재정의하려거든 hashCode도 재정의하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt3/item11/Item11_equals%EB%A5%BC_%EC%9E%AC%EC%A0%95%EC%9D%98%ED%95%98%EB%A0%A4%EA%B1%B0%EB%93%A0_hashCode%EB%8F%84_%EC%9E%AC%EC%A0%95%EC%9D%98%ED%95%98%EB%9D%BC.md)
 
 > **4장 : 클래스와 인터페이스** <br>
 [예) Item15 : 클래스와 멤버의 접근 권한을 최소화하라]
