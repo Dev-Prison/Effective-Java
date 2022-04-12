@@ -4,7 +4,7 @@
 ### ☕️ 스터디 규칙
 - 스터디 당일 낮 12시 전까지 발표자는 발표자료를 Github에 업로드 해야 합니다. (지각시 커피 +2)
 - 발표자 외 스터디 시간(오후 10시) 전까지 comment를 통해 주제마다 질문을 한개씩 등록해야 합니다. (지각시 커피 +2)
-  - comment를 달 때, Files changed → Review Changes 에서 submit review 도 해주시면 좋습니다.
+  - comment를 달 때, Files changed → Review Changes 에서 approve 도 해주시면 좋습니다.
 - 발표자가 발표자료를 늦게 업로드 해서 다른 팀원들이 comment를 달지 못했다? 발표자가 연대책임 합니다. (커피 +4)
 <br>
 
