@@ -128,8 +128,8 @@ public class Main {
         System.out.println(B.size()); // 1
     }
 }
-```
-<br>
+``` <br>
+
 ## compareTo 메서드의 작성 요령
 
 - 타입이 다른 객체를 신경쓰지 않아도 됨 : 대부분 ClassCastException을 던지는 식으로 구현한다.
