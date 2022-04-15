@@ -70,7 +70,7 @@ public class Main {
 }
 ```
 
-- 즉, 직접 작성한 클래스에서 Comparable을 구현하면, 해당 인터페이스를 구현하는 다양한 제네릭
+- 직접 작성한 클래스에서 Comparable을 구현하면, 해당 인터페이스를 구현하는 다양한 제네릭
 알고리즘과 Collection을 사용할 수 있다는 장점이 있다.
     - Java 라이브러리의 모든 값 클래스(Integer, Float, Double 등)와 열거 타입이 Comparable 구현
     
