@@ -90,7 +90,7 @@ public class Main {
 ## compareTo 메서드의 세가지 규약
 
 <aside>
-💡   `A.compareT(B)`
+💡   ( `A.compareT(B)` )
 
 - **A < B** : 음수 반환  ( `sgn(A.compareTo(B))` = -1 )
 - **A = B** : 0 반환      ( `sgn(A.compareTo(B))` =  0 )
