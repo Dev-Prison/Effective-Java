@@ -4,7 +4,7 @@
 ### ☕️ 스터디 규칙
 - 스터디 당일 낮 12시 전까지 발표자는 발표자료를 Github에 업로드 해야 합니다. (지각시 커피 +2)
 - 발표자 외 스터디 시간(오후 10시) 전까지 comment를 통해 주제마다 질문을 한개씩 등록해야 합니다. (지각시 커피 +2)
-  - comment를 달 때, Files changed → Review Changes 에서 approve 도 해주시면 좋습니다.
+  - comment를 달 때, Files changed → Review Changes 에서 submit review 도 해주시면 좋습니다.
 - 발표자가 발표자료를 늦게 업로드 해서 다른 팀원들이 comment를 달지 못했다? 발표자가 연대책임 합니다. (커피 +4)
 <br>
 
@@ -14,6 +14,13 @@
 - main branch의 Readme.md 에는 Item 별로 작성한 발표자료의 링크를 모아주세요. (아래 예시 참고)
 - 발표자료가 저장되어있는 링크에는 발표자료 외에 발표에 참고할 수 있는 코드 등을 저장해두셔도 됩니다.
 <br>
+
+###📌마스터 필독 ‼️
+- 발표자 준비 자료 확인
+- 발표 전 approve 확인
+- root readme 연결하기
+- 발표자 자료 외 merge 안된 PR merge 하도록 요청하기
+- main branch 최신화 확인하기
 
 ### 🍄 Item list
 > **3장 : 모든 객체의 공통 메서드** <br>
