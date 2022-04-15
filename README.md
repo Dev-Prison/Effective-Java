@@ -20,3 +20,5 @@
 
 - [Item10 : equals는 일반 규약을 지켜 재정의하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt3/item10/item10_%EB%B0%9C%ED%91%9C.md)
 - [Item11 : equals를 재정의하려거든 hashCode도 재정의하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt3/item11/Item11_equals%EB%A5%BC_%EC%9E%AC%EC%A0%95%EC%9D%98%ED%95%98%EB%A0%A4%EA%B1%B0%EB%93%A0_hashCode%EB%8F%84_%EC%9E%AC%EC%A0%95%EC%9D%98%ED%95%98%EB%9D%BC.md)
+- [Item12 : toString을 재정의하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt3/item12/Item12_toString.md)
+- [Item 13 : clone 재정의는 주의해서 진행하라](https://github.com/Dev-Prison/Effective-Java/tree/main/app/src/main/java/com/programmers/java/chapt3/item13)
