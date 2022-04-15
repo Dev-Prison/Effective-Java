@@ -1,6 +1,6 @@
 ## Comparable 인터페이스의 유일무이한 메서드, compareTo
 
-- `comapreTo` 값을 비교하는 method
+- `comapreTo` : 값을 비교하는 method
     - `A.compareT(B)`
         - A < B : 음수(-1) 반환
         - A = B : 0 반환
