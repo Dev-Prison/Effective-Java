@@ -128,7 +128,9 @@ public class Main {
         System.out.println(B.size()); // 1
     }
 }
-``` <br>
+``` 
+
+<br>
 
 ## compareTo 메서드의 작성 요령
 
