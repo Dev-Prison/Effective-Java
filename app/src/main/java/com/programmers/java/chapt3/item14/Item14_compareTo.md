@@ -26,8 +26,7 @@ public class Main {
     public static void main(String[] args) {
         int a = 1;
         int b = 2;
-        System.out.println(a.compareTo(b));
-				// error: int cannot be dereferenced
+        System.out.println(a.compareTo(b)); // error: int cannot be dereferenced
     }
 }
 ```
@@ -89,22 +88,29 @@ public class Main {
 
 ## compareTo 메서드의 세가지 규약
 
-- `A.compareT(B)`
+> `A.compareT(B)`
 
-	- **A < B** : 음수 반환  ( `sgn(A.compareTo(B))` = -1 )
-	- **A = B** : 0 반환      ( `sgn(A.compareTo(B))` =  0 )
-	- **A > B** : 양수 반환  ( `sgn(A.compareTo(B))` = -1 )
+- **A < B** : 음수 반환  ( `sgn(A.compareTo(B))` = -1 )
+- **A = B** : 0 반환      ( `sgn(A.compareTo(B))` =  0 )
+- **A > B** : 양수 반환  ( `sgn(A.compareTo(B))` = -1 )
 
-- sgn(x.compareTo(y)) == -sgn(y.compareTo(x))
-    - 모든 x, y에 대해 x > y 이면 y < x 이다.
-    - 한쪽에서 예외가 발생하면 다른 쪽에서도 응당 예외가 발생해야 함
-- x.compareTo(y) > 0 && y.compareTo(z) > 0 이면 x.compareTo(z)
-    - 모든 x, y, z 에 대해 x > y 이고 y > z 이면 x > z 이다
-- x.compareTo(y) == 0 이면 sgn(x.compareTo(z)) == sgn(y.compareTo(z))
-    - x = y 이면, 모든 z에 대해 x > z , x < z 의 참/거짓 여부는 y > z , y < z 의 참/거짓 여부와 동일
-- (권장) x.compareTo(y) == 0 이면 x.equals(y) == 0 이다.
-    - Comparable을 구현하지만 위 사항을 지키지 않는 클래스는 반드시 그 사실을 명시해줘야 한다.
-    - 주의! 이 클래스의 순서는 equals 메서드와 일관되지 않다.
+> sgn(x.compareTo(y)) == -sgn(y.compareTo(x))
+
+- 모든 x, y에 대해 x > y 이면 y < x 이다.
+- 한쪽에서 예외가 발생하면 다른 쪽에서도 응당 예외가 발생해야 함
+    
+> x.compareTo(y) > 0 && y.compareTo(z) > 0 이면 x.compareTo(z)
+
+- 모든 x, y, z 에 대해 x > y 이고 y > z 이면 x > z 이다
+    
+> x.compareTo(y) == 0 이면 sgn(x.compareTo(z)) == sgn(y.compareTo(z))
+
+- x = y 이면, 모든 z에 대해 x > z , x < z 의 참/거짓 여부는 y > z , y < z 의 참/거짓 여부와 동일
+    
+> (**권장**) x.compareTo(y) == 0 이면 x.equals(y) == 0 이다.
+
+- Comparable을 구현하지만 위 사항을 지키지 않는 클래스는 반드시 그 사실을 명시해줘야 한다.
+- 주의! 이 클래스의 순서는 equals 메서드와 일관되지 않다.
 
 - 특정한 오류를 발생시키는 것은 아니지만, 크고 작은 문제들이 발생할 수 있다.
 - 정렬된 컬렉션들은 값이 같은지를 비교할 때 equals 대신 compareTo를 사용하기 때문
@@ -118,7 +124,7 @@ public class Main {
         System.out.println(a.compareTo(b)); // 0
         System.out.println(a.equals(b)); // false
 
-				HashSet<Object> A = new HashSet<>(); // 동치 비교에 equals 사용
+	HashSet<Object> A = new HashSet<>(); // 동치 비교에 equals 사용
         TreeSet<Object> B = new TreeSet<>(); // 동치 비교에 compareTo 사용
 
         A.add(a); A.add(b);
@@ -134,19 +140,20 @@ public class Main {
 
 ## compareTo 메서드의 작성 요령
 
-- 타입이 다른 객체를 신경쓰지 않아도 됨 : 대부분 ClassCastException을 던지는 식으로 구현한다.
-    - 일반적으로 객체간의 비교는 객체들이 구현한 공통 인터페이스를 매개로 이루어지기 때문
-- 기존 클래스를 확장한 구체 클래스에서 새로운 값 Component를 추가하면 compareTo 규약을 위반하는
-상황이 발생할 수 있으니 주의하자.
-    - 만약 새로운 값 Component를 추가하고 싶다면, 새로운 클래스를 만들어서 이 클래스에 원래 클래스의 인스턴스를 가리키는 필드를 두자. 그 다음 내부 인스턴스를 반환하는 메서드르 제공하면 된다.
-    - 이렇게 하면 바깥 클래스에 우리가 원하는 compareTo 메서드를 구현해넣을 수 있으며
-    필요에따라 바깥 클래스의 인스턴스를 원래 클래스의 인스턴스로 다룰수도 있다.
-- Comparable은 제네릭 인터페이스 이므로 compareTo 메서드의 parameter 타입은 컴파일 타임에
-정해진다. 즉 입력 인수의 타입을 확인하거나 형변환할 필요가 없음
-    - parameter 타입이 잘못되었다면 컴파일 자체가 되지 않는다.
-    - null 이 인수로 들어오면 NullPointerException이 Throw 되어야 한다.
-- compareTo 메서드는 값이 동일한지를 비교하는데 보다는 값의 대소와 순서를 비교하는데 주로 사용된다.
-    - 클래스에 핵심 필드가 여러개라면 가장 핵심적인 필드부터 비교해나가자.
+> 타입이 다른 객체를 신경쓰지 않아도 됨 : 대부분 ClassCastException을 던지는 식으로 구현한다.
+- 일반적으로 객체간의 비교는 객체들이 구현한 공통 인터페이스를 매개로 이루어지기 때문
+
+> 기존 클래스를 확장한 구체 클래스에서 새로운 값 Component를 추가하면 compareTo 규약을 위반하는 상황이 발생할 수 있으니 주의하자.
+- 만약 새로운 값 Component를 추가하고 싶다면, 새로운 클래스를 만들어서 이 클래스에 원래 클래스의 인스턴스를 가리키는 필드를 두자. 그 다음 내부 인스턴스를 반환하는 메서드르 제공하면 된다.
+- 이렇게 하면 바깥 클래스에 우리가 원하는 compareTo 메서드를 구현해넣을 수 있으며 필요에따라 바깥 클래스의 인스턴스를 원래 클래스의 인스턴스로 다룰수도 있다.
+
+> Comparable은 제네릭 인터페이스 이므로 compareTo 메서드의 parameter 타입은 컴파일 타임에 정해진다.
+- 즉 입력 인수의 타입을 확인하거나 형변환할 필요가 없다.
+- parameter 타입이 잘못되었다면 컴파일 자체가 되지 않는다.
+- null 이 인수로 들어오면 NullPointerException이 Throw 되어야 한다.
+
+> compareTo 메서드는 값이 동일한지를 비교하는데 보다는 값의 대소와 순서를 비교하는데 주로 사용된다.
+- 클래스에 핵심 필드가 여러개라면 가장 핵심적인 필드부터 비교해나가자.
     
     ```java
     public int compareTo(PhoneNumber pn) {
@@ -155,14 +162,15 @@ public class Main {
         if (result == 0) {
             result = Short.compare(prefix, pn.prefix); // 두번째로 중요한 필드
     
-    				// 세번째로 중요한 필드
-            if (result == 0) result = Short.compare(lineNum, pn.lineNum);
+            if (result == 0) result = Short.compare(lineNum, pn.lineNum); // 세번째로 중요한 필드
         }
         return result;
     }
     ```
     
-- 객체 참조 필드를 비교하려면 compareTo 메서드를 재귀적으로 호출하면 된다.<br><br>
+> 객체 참조 필드를 비교하려면 compareTo 메서드를 재귀적으로 호출하면 된다.
+ 
+<br>
 
 ## Java 제공 비교자의 활용
 
@@ -180,8 +188,8 @@ public class Main {
 ```java
 private static final Comparator<PhoneNumber> COMPARATOR =
         Comparator.comparingInt((PhoneNumber pn) -> pn.areaCode)
-                .thenComparingInt(pn -> pn.prefix)
-                .thenComparingInt(pn -> pn.lineNum);
+                  .thenComparingInt(pn -> pn.prefix)
+                  .thenComparingInt(pn -> pn.lineNum);
 
 public int compareTo(PhoneNumber pn) {
     return COMPARATOR.compare(this, pn);
