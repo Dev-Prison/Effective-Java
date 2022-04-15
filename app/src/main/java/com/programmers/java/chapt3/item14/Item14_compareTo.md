@@ -85,7 +85,7 @@ public class Main {
     ```
     
     - 알파벳, 숫자, 날짜 등 순서가 명확한 값 클래스를 작성할 때는 꼭 Comparable 인터페이스를 구현하자.
-- 정렬된 컬렉션인 TreeSet, TreeMap 과 검색/정렬 기능을 제공하는 유틸리티 클래스 Collections, Arrays 역시 Comparable을 활용한다.
+- 정렬된 컬렉션인 TreeSet, TreeMap 과 검색/정렬 기능을 제공하는 유틸리티 클래스 Collections, Arrays 역시 Comparable을 활용한다.<br><br>
 
 ## compareTo 메서드의 세가지 규약
 
@@ -129,7 +129,7 @@ public class Main {
     }
 }
 ```
-
+<br><br>
 ## compareTo 메서드의 작성 요령
 
 - 타입이 다른 객체를 신경쓰지 않아도 됨 : 대부분 ClassCastException을 던지는 식으로 구현한다.
@@ -160,18 +160,18 @@ public class Main {
     }
     ```
     
-- 객체 참조 필드를 비교하려면 compareTo 메서드를 재귀적으로 호출하면 된다.
+- 객체 참조 필드를 비교하려면 compareTo 메서드를 재귀적으로 호출하면 된다.<br><br>
 
 ## Java 제공 비교자의 활용
 
 - Comparable을 구현하지 않은 필드나, 표준이 아닌 순서로 비교해야 한다면 Java에서 제공하는 비교자(Comparator)를 사용할 수 있다.
-- 객체 참조 필드가 하나인 비교자 : `compare`
+- 객체 참조 필드가 하나인 비교자 : `compare`<br><br>
 
 ## 관계연산자 >, < 사용에 주의하라
 
 - compareTo 메서드에서 관계 연산자 >, <를 사용하는 방식은 거추장스럽고 오류를 유발하기 쉽다.
 - Java 7 부터 라이브러리의 모든 값 클래스(Integer, Float, Double 등)가 Comparable을 구현하고
-있으므로, 해당 기능을 사용하는것이 권장된다.
+있으므로, 해당 기능을 사용하는것이 권장된다.<br><br>
 
 ## Java의 비교자 생성 메서드와 객체 참조용 비교자 생성 메서드
 
