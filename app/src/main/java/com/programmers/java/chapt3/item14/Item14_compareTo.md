@@ -89,11 +89,11 @@ public class Main {
 
 ## compareTo 메서드의 세가지 규약
 
-💡 `A.compareT(B)`
+- `A.compareT(B)`
 
-- **A < B** : 음수 반환  ( `sgn(A.compareTo(B))` = -1 )
-- **A = B** : 0 반환      ( `sgn(A.compareTo(B))` =  0 )
-- **A > B** : 양수 반환  ( `sgn(A.compareTo(B))` = -1 )
+	- **A < B** : 음수 반환  ( `sgn(A.compareTo(B))` = -1 )
+	- **A = B** : 0 반환      ( `sgn(A.compareTo(B))` =  0 )
+	- **A > B** : 양수 반환  ( `sgn(A.compareTo(B))` = -1 )
 
 - sgn(x.compareTo(y)) == -sgn(y.compareTo(x))
     - 모든 x, y에 대해 x > y 이면 y < x 이다.
