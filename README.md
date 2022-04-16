@@ -29,3 +29,8 @@
 - [Item11 : equals를 재정의하려거든 hashCode도 재정의하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt3/item11/Item11_equals%EB%A5%BC_%EC%9E%AC%EC%A0%95%EC%9D%98%ED%95%98%EB%A0%A4%EA%B1%B0%EB%93%A0_hashCode%EB%8F%84_%EC%9E%AC%EC%A0%95%EC%9D%98%ED%95%98%EB%9D%BC.md)
 - [Item12 : toString을 재정의하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt3/item12/Item12_toString.md)
 - [Item13 : clone 재정의는 주의해서 진행하라](https://github.com/Dev-Prison/Effective-Java/tree/main/app/src/main/java/com/programmers/java/chapt3/item13)
+- [Item14 : Comparable을 구현할지 고려하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt3/item14/Item14_compareTo.md)
+
+> **4장 : 클래스와 인터페이스** <br>
+
+- [Item15 : 클래스와 멤버의 접근 권한을 최소화하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt4/item15/item15_%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80_%EB%A9%A4%EB%B2%84%EC%9D%98_%EC%A0%91%EA%B7%BC%EA%B6%8C%ED%95%9C%EC%9D%84_%EC%B5%9C%EC%86%8C%ED%99%94_%ED%95%98%EB%9D%BC_%EB%B0%9C%ED%91%9C.md)
