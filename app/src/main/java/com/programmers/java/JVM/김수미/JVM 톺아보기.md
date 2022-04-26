@@ -1,3 +1,5 @@
+[> Notion 바로가기 <](https://www.notion.so/DAY-8-JVM-157d19f299b94c498dc756232111ffc6)
+
 ## 들어가기에 앞서
 
 - 왜 JVM을 공부해야 하는가?
