@@ -2,9 +2,9 @@
 
     클래스의 상속을 허용하면 문제가 발생할 수 있다.
 
-    기존 클래스(`A`) 내부에서 먼저 정의 및 호출되는 함수(`F`)가 재정의 가능한 함수일 때,
-    다른 클래스(`B`)가 `A` 클래스를 상속한 다음 `F` 함수를 재정의(`F’`)하여 사용할 수 있는데
-    모종의 이유로 클래스 `A` 에서 `F` 함수를 수정하면 클래스 `B` 의 `F’` 함수에서 문제가 생길 수 있다.
+    기존 클래스(A) 내부에서 먼저 정의 및 호출되는 함수(F)가 재정의 가능한 함수일 때,
+    다른 클래스(B)가 A 클래스를 상속한 다음 F 함수를 재정의(F’)하여 사용할 수 있는데
+    모종의 이유로 클래스 A 에서 F 함수를 수정하면 클래스 B 의 F’ 함수에서 문제가 생길 수 있다.
 
     이러한 문제가 왜 발생하는지 좀 더 자세히 알아보고, 어떻게 방지할 수 있는지 알아보자.
 
@@ -24,39 +24,42 @@
     - 자바 개발팀에서 내부적으로 사용하는 규약
     - Annotation 이름을 반드시 `@implSpec`으로 해야할 필요는 없지만, 언젠가 표준 태그로 정의될지도 모르니 이왕이면 자바 개발팀과 같은 방식으로 사용하는 것을 추천한다. (by 옮긴이)
 
-```java
-public boolean remove(Object o)
-```
+![aaa](https://user-images.githubusercontent.com/48689213/167621054-bac8e681-1380-4c4c-b40c-7caabe95d510.png)
+(java.util.AbstractCollection의 remove 메서드)
 
-- iterator 메서드를 재정의하면 remove 메서드의 동작에 영향을 준다.
-    - [ ]  why?
-- 클래스를 안전하게 상속할 수 있도록 하려면 클래스의 내부 구현 방식을 설명으로 남겨야 한다.
+- `@implSpec`은 이 클래스를 상속하여 메서드를 재정의했을 때 나타날 효과를 상세히 설명하고 있다.
+    - `java.util.AbstractCollection`의 `remove` 메서드는 내부적으로 iterator의 remove 메서드를 사용하고 있다.
+    - 위 설명에 의하면 `iterator` 인터페이스를 구현한 구현체에 `remove` 메소드가 구현되어 있지 않은
+    경우 `UnsupportedOperationException`이 발생한다.
+
+<img width="484" alt="t1" src="https://user-images.githubusercontent.com/48689213/167621226-dcd68bee-5b89-4fff-baf1-da03a14e7dc2.png">
+<img width="581" alt="t2" src="https://user-images.githubusercontent.com/48689213/167621274-9adf6c38-95ee-4f1b-8001-3bb928012810.png">
+
+- `iterator` 메서드를 재정의하면 `java.util.AbstractCollection`의 `remove` 메서드의 동작에 영향을 준다.
+- iterator 메서드를 재정의하면 반드시 remove 메소드도 함께 구현해 주어야 `java.util.AbstractCollection`의 `remove` 메서드를 오류 없이 사용할 수 있다.
+- 이처럼 클래스를 안전하게 상속할 수 있도록 하려면 클래스의 내부 구현 방식을 설명으로 남겨야 한다.
     - `@implSpec` 어노테이션을 적극 활용하라
 
-<br>
+<br><br>
 
 ## 클래스의 Hook 을 잘 선별하여 protected 메서드 형태로 공개하라
 
-- 어떤 메서드를 재정의 가능한 메서드로 정의할 것인가?
-    - 클래스의 내부 동작 과정 중간에 끼어들 수 있는 훅(hook)을 잘 선별하여 `protected` 메서드/필드 형태로 공개하는 방법이 있다.
-    - 이 작업은 효율 좋은 하위 클래스를 생성할 수 있게 해준다.
+- 효율적인 하위 클래스를 큰 어려움 없이 만들 수 있게 하려면
+내부 동작 과정에 끼어들 수 있는 훅(hook)을 protected 메서드(재정의 가능한)로 제공하는것이 좋다.
 
-```java
-protected void removeRange(int fromIndex, int toIndex)
-```
+<img width="661" alt="k3" src="https://user-images.githubusercontent.com/48689213/167621400-96c27a41-1e37-4f0e-9fdb-c4acff76c704.png">
 
-- List 구현체의 최종 사용자는 `removeRange` 메서드에 관심이 없다.
-- 하위 클래스에서 부분리스트의 `clear` 메서드를 고성능으로 만들기 쉽게 하기 위해 제공되는 것
-- 이 메서드가 공개되어 있지 않다면 하위 클래스에서 `clear` 메서드를 호출했을 때 성능이 느려지거나
-부분리스트의 매커니즘을 밑바닥부터 새로 구현해야 했을 것이다.
+- `removeRange` 메서드는 특정 리스트 또는 부분 리스트의 `clear` 메서드에서 사용된다고 나와있다.
+- 또한 해당 메서드를 재정의하면 특정 리스트 또는 부분 리스트의 `clear` 메서드를 고성능으로 만들 수 있다고 명시되어있다.
+- `removeRange` 메서드를 `protected` 접근 제어자로 제공한 이유는 단지 하위 클래스의 clear 메서드를 고성능으로 만들기 쉽게 하기 위해서이다.
 
-- 상속용 클래스를 설계할 때 어떤 메서드를 protected로 노출해야 하는가?
-    - 심사숙고해서 잘 예측해본 다음 실제 하위 클래스를 만들어 실험해보는것이 최선이다.
+- 상속용 클래스를 설계할 때 어떤 메서드를 `protected`로 노출해야 할지는 어떻게 결정할까?
+    - 심사숙고해서 잘 예측해본 다음 실제 하위 클래스를 만들어 실험해보는것이 최선
         - 상속용 클래스를 시험하는 방법은 직접 하위 클래스를 만들어보는것이 **유일한** 방법이다.
         - 한 3개 정도 만들어 보는 것이 적당하다. (이 중 하나 이상은 제 3자가 작성해볼 것)
         - 상속용으로 설계한 클래스는 배포 전에 반드시 하위 클래스를 만들어 검증해야 한다.
-    - protected 메서드 하나하나가 내부 구현에 해당하므로 그 수는 가능한 한 적어야 하나
-    - 너무 적게 노출해서 상속으로 얻는 이점마저 없애지 않도록 주의해야 한다.
+- protected 메서드 하나하나가 내부 구현에 해당하므로 그 수는 가능한 한 적어야 하나
+너무 적게 노출해서 상속으로 얻는 이점마저 없애지 않도록 주의해야 한다.
 - 클래스를 확장해야 할 명확한 이유가 떠오르지 않는다면 상속을 금지하는 편이 낫다.
 
 <br>
@@ -92,7 +95,6 @@ sub.overrideMe(); // instant 출력
 ```
 
 - 상위 클래스의 생성자는 하위 클래스의 생성자가 인스턴스 필드를 초기화 하기도 전에 `overrideMe` 함수를 호출하기 때문에 이러한 문제가 발생한다.
-    - `final` 필드의 state가 두가지인 문제 발생 (한개인 것이 정상)
 - `overrideMe` 메서드에서 `instant` 객체의 메서드를 호출하려 한다면 상위 클래스의 생성자가 `overrideMe` 메서드를 호출할 때 `NullPointerException`을 던지게 될 것이다.
 - 위 코드에서는 `println`이 null 입력을 처리해주기 때문에 예외는 발생하지 않음
 
@@ -129,6 +131,31 @@ sub.overrideMe(); // instant 출력
 <br>
 
 ## 클래스 동작을 유지하면서, 재정의 가능 메서드를 사용한 부분을 제거하는 법
+
+```java
+public class Super {
+    public Super() { overrideMe(); }
+    public void overrideMe() { ~ }
+}
+```
+
+```java
+public class Super {
+    public Super() { overrideMe(); }
+    public void overrideMe() { ~ }
+    
+    private void helperMethod() { ~ }
+}
+```
+
+```java
+public class Super {
+    public Super() { helperMethod(); }
+    public void overrideMe() { helperMethod(); }
+    
+    private void helperMethod() { ~ }
+}
+```
 
 - 새로운 private 도우미 메서드를 생성한다.
 - 각각의 재정의 가능 메서드 내용을 private 도우미 메서드로 옮긴다.
