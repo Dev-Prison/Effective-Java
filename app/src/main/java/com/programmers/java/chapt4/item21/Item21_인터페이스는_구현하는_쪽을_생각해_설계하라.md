@@ -87,4 +87,49 @@ public class SynchronizedCollection<E> implements Collection<E>, Serializable {
 5. 또한 인터페이스 설계에 세심한 주의를 기울이고, 항상 여러개의 구현체를 통해 테스트를 진행하자.
 
 ## 4. 디폴트 메서드를 사용하는 이유
+[오브젝트 600p]<br>
+디폴트 메서드가 추가된 이유 :
+- 기존에 널리 사용되고 있는 인터페이스에 새로운 오퍼레이션을 추가할 경우 하위 호환성 문제를 해결하기 위해서이다.
 
+오해1. 추상클래스의 역할을 대체하기 위해 디폴트 메서드를 사용하는것인가? No<br>
+```java
+public interface DiscountPolicy {
+    default int calculateDiscountAmount(Object movie){
+        for(String each : getConditions()){
+            if(each.equals((String) movie)){
+                return getDiscountAmount(movie);
+            }
+        }
+        return 0;
+    }
+
+    List<String> getConditions(); // 디폴트 메서드 내부 구현
+    int getDiscountAmount(Object movie); // 디폴트 메서드 내부 구현
+    String publicInterface(); // 퍼블릭 인터페이스
+}
+
+
+```
+```java
+
+public class AmountDiscountPolicy implements DiscountPolicy{
+    @Override
+    public List<String> getConditions() { // 내부 구현에 사용되는 메서드 접근자가 public 으로 열린다.
+        return null;
+    }
+
+    @Override
+    public int getDiscountAmount(Object movie) { // 내부 구현에 사용되는 메서드 접근자가 public 으로 열린다.
+        return 0;
+    }
+
+    @Override
+    public String publicInterface() {
+        return null;
+    }
+}
+
+```
+- 캡슐화를 약화시킨다.
+- 인터페이스가 불필요하게 비대해진다.
+- 코드 중복을 환벽하게 제거하지 못한다.
