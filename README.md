@@ -48,5 +48,5 @@
 
 > **5장 : 제네릭** <br>
 
-- [Item26 : -로 타입은 사용하지 말라 ](app/src/main/java/com/programmers/java/chapt5/item26/Item26_로_타입은_사용하지_말라.md)
+- [Item26 : 로 타입은 사용하지 말라 ](app/src/main/java/com/programmers/java/chapt5/item26/Item26_로_타입은_사용하지_말라.md)
 - [Item27 : 비검사 경고를 제거하라 ](app/src/main/java/com/programmers/java/chapt5/item27/비검사_경고를_제거하라.md)
