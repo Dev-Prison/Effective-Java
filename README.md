@@ -1,5 +1,4 @@
 # Effective-Java
-<br>
 
 ## ☕️ 스터디 규칙
 - 스터디 당일 낮 12시 전까지 발표자는 발표자료를 Github에 업로드 해야 합니다. (지각시 커피 +2)
@@ -22,6 +21,7 @@
 - root readme 연결하기
 - 발표자 자료 외 merge 안된 PR merge 하도록 요청하기
 - main branch 최신화 확인하기
+<br>
 
 ## 🍄 Item list
 > **3장 : 모든 객체의 공통 메서드** <br>
