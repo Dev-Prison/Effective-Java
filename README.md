@@ -23,7 +23,7 @@
 - main branch 최신화 확인하기
 <br>
 
-## 🍄 Item list
+## 🍄 Item List
 > **3장 : 모든 객체의 공통 메서드** <br>
 
 - [Item10 : equals는 일반 규약을 지켜 재정의하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt3/item10/item10_%EB%B0%9C%ED%91%9C.md)
