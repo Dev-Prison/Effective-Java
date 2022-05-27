@@ -46,7 +46,7 @@
 - [Item24 : 멤버 클래스는 되도록 static 으로 만들라 ](app/src/main/java/com/programmers/java/chapt4/item24/item24.md)
 - [Item25 : 톱레벨 클래스는 한 파일에 하나만 담으라 ](app/src/main/java/com/programmers/java/chapt4/item25/item25_톱레벨_클래스는_한파일에_하나만_담으라.md)
 
-> **5장 : 클래스와 인터페이스** <br>
+> **5장 : 제네릭** <br>
 
 - [Item26 : -로 타입은 사용하지 말라 ](app/src/main/java/com/programmers/java/chapt5/item26/Item26_로_타입은_사용하지_말라.md)
 - [Item27 : 비검사 경고를 제거하라 ](app/src/main/java/com/programmers/java/chapt5/item27/비검사_경고를_제거하라.md)
