@@ -45,6 +45,26 @@ Pair<Integer, String> p1 = new Pair<Integer, String>(1, "apple")
 ## 단순한 제네릭 메소드
 
 ```java
+public static Set<Integer> union2(Set<Integer> s1, Set<Integer> s2) {
+   Set<Integer> result = new HashSet<>(s1);
+   result.addAll(s2);
+
+   return result;
+}
+```
+
+```java
+public static Set<String> union2(Set<String> s1, Set<String> s2) {
+   Set<String> result = new HashSet<>(s1);
+   result.addAll(s2);
+
+   return result;
+}
+```
+
+두 개의 Set 의 원소들을 합해주는 메소드를 타입마다  정의해줘야 할까요?
+
+```java
 public static Set union1(Set s1, Set s2) {
    Set result = new HashSet<>(s1);
    result.addAll(s2);
@@ -78,40 +98,54 @@ public static Set union(Set s1, Set s2) {
 public static <E> Set<E> union(Set<E> s1, Set<E> s2) {
 ```
 
+> **위의 제네릭 union 메소드 덕분에** 우리는 Set<Integer> set1, Set<Integer> set2 를 합하기 위한 메소드와, Set<String> set1, Set<String> set2 를 합하기 위한 **메소드, 즉 각 타입에 대한 메소드를 개별적으로 선언하지 않아도 될 수 있게 되었습니다**.
+>
+
 ## 한정적 와일드카드 타입을 사용한다면?
 
-두 개의 Set 으로부터 원소들을 받아와 합친 Set 을 생성하기 위해 위의 메소드와는 다른 형태의 메소드를 사용해 보겠습니다.
+“좀 더 유연하게" 두 개의 Set 으로부터 원소들을 받아와 합친 Set 을 생성하기 위해 위의 메소드와는 다른 형태의 메소드를 사용해 보겠습니다.
+사실 위의 union 메소드에는 한계가 존재했습니다
 
-아래와 같은 것이 가능한 것을 Item 31 에서는 “한정적 와일드 카드 타입 은 producer 에 사용 "한다고 표현합니다.
+- ***완전히 동일한 타입에 대한 Set 들만을 합할 수 있다는 것***이죠
+- 이번에는, 어떤 타입의 하위 타입 B,C 가 있을 때, 각 타입에 대한 Set 을 합치는 제네릭 메소드를 정의해보죠.
+
+이를 위해서는 Item 31 에서는 “한정적 와일드 카드 타입 은 producer 에 사용 "한다고 표현하는, 그 개념을 사용해볼 것입니다.
 
 ```java
+
 public class Animals {
-	private Set<Animal> animals = new HashSet<>();
 
-	public void union(Set<? extends Animal> animals) {
-		for (Animal animal : animals) {
-			this.animals.add(animal); // 꺼내서 사용하는 것은 가능! 
-		}
+	public static Set<Animal> union(Set<? extends Animal> set1, Set<? extends Animal> set2) {
+		Set<Animal> animals = new HashSet<>(set1);
+
+		animals.addAll(set2); //     boolean addAll(Collection<? extends E> c);
+
+		return animals;
 	}
 
-	public void printAnimals(){
-		System.out.println(this.animals);
+	public static boolean hasAllElementsOf(Collection<? extends Animal> storage, Collection<? extends Animal> target) {
+		return !target.stream()
+			.map(targetAnimal -> storage.stream()
+					.anyMatch(storageAnimal -> storageAnimal.equals(targetAnimal))
+			).anyMatch(result -> result == false);
 	}
 
-}
 ```
 ![img.png](img.png)
 ```java
-		Animals animals = new Animals();
 
-		Set<Carnivore> carnivores = Set.of(new Carnivore("Lion"), new Carnivore("Tiger"));
-		Set<Herbivore> herbivores = Set.of(new Herbivore("코끼맄"), new Herbivore("토끼"));
+        Set<Carnivore> carnivores = Set.of(new Carnivore("Lion"), new Carnivore("Tiger"));
+	Set<Herbivore> herbivores = Set.of(new Herbivore("코끼맄"), new Herbivore("토끼"));
 
-		animals.union(carnivores); 
-		animals.printAnimals(); // [Animal{name='Lion'}, Animal{name='Tiger'}]
+	Set<Animal> animals = Animals.union(carnivores, herbivores);
 
-		animals.union(herbivores);
-		animals.printAnimals(); // [Animal{name='코끼맄'}, Animal{name='Lion'}, Animal{name='토끼'}, Animal{name='Tiger'}]
+	Assertions.assertThat(
+	Animals.hasAllElementsOf(animals, carnivores))
+	.isTrue();
+
+	Assertions.assertThat(
+	Animals.hasAllElementsOf(animals, herbivores))
+	.isTrue();
 ```
 
 ## 제네릭 싱글톤 팩토리
@@ -144,6 +178,8 @@ immutable 한 empty set 을 생성하여 리턴합니다. parameterized method �
 		set.add(new Carnivore("라이언"));
 		// set.add(new Herbivore("토끼")); 컴파일 에러
 ```
+
+언뜻 보면, 해당 메소드 호출 결과를 할당받는 참조변수 에만 타입이 명시되어 있어 이상하다고 생각할 수도 있는데요(심지어 이번에는 <> 이것도 안 보이죠 ),  “타입 추론" 이 일어난다는 것을 상기하면 좋을 것 같습니다.
 
 ### 항등 함수
 
