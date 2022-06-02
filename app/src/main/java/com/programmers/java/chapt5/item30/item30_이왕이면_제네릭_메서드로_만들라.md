@@ -168,15 +168,23 @@ immutable 한 empty set 을 생성하여 리턴합니다. parameterized method �
 
 > 위의 메소드를 사용하면 Parameterized empty Set 을 획득할 수 있습니다.
 >
->
-> 우리는 **이를 사용하여 type safe empty Set 을 획득**하는 것입니다.
->
+> - 이러한 emptySet 이 존재하는 이유는, null 변수를 사용하고 싶지 않은 사람들을 위해서입니다
+> - 이 emptySet 에는 add 또한 허용되지 않습니다. 따라서 모든 타입에 대해 동일한 emptySet 을 사용하도록 하기 위해 raw type 싱글톤으로 생성되어 있는 Set 을
+    >     - 제네릭 싱글톤 팩토리를 통해 특정 타입의 emptySet 으로 반환합니다
 
 ```java
-		Set<Carnivore> set = Collections.emptySet();
+                @Test
+		@DisplayName("Collections.emptySet() 은 제네릭 싱글톤 패토리를 리턴한다")
+		void test_singletonFactory() {
+			Set<Carnivore> carnivores = Collections.emptySet();
+			Set<Herbivore> herbivores = Collections.emptySet();
 
-		set.add(new Carnivore("라이언"));
-		// set.add(new Herbivore("토끼")); 컴파일 에러
+			Assertions.assertThat(carnivores).isEqualTo(herbivores);
+
+			Assertions.assertThatThrownBy(() ->
+				carnivores.add(new Carnivore("Lion")))
+				.isInstanceOf(UnsupportedOperationException.class);
+		}
 ```
 
 언뜻 보면, 해당 메소드 호출 결과를 할당받는 참조변수 에만 타입이 명시되어 있어 이상하다고 생각할 수도 있는데요(심지어 이번에는 <> 이것도 안 보이죠 ),  “타입 추론" 이 일어난다는 것을 상기하면 좋을 것 같습니다.
