@@ -1,0 +1,1 @@
+[item33. 타입 안정 이종 컨테이너를 고려하라 link](https://absorbed-cheek-029.notion.site/item33-009fd935813c4247a028f34a5ba522b0)
