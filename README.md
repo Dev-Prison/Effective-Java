@@ -53,3 +53,5 @@
 - [Item27 : 비검사 경고를 제거하라](app/src/main/java/com/programmers/java/chapt5/item27/비검사_경고를_제거하라.md)
 - [Item28 : 배열보다는 리스트를 사용하라](https://absorbed-cheek-029.notion.site/item28-bcd551fd107648e98794d92be3d3ef5b)
 - [Item29 : 이왕이면 제네릭 타입으로 만들라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt5/item29/item29.md)
+- [Item30 : 이왕이면 제네릭 메서드로 만들라](https://github.com/Dev-Prison/Effective-Java/blob/ynoolee/app/src/main/java/com/programmers/java/chapt5/item30/item30_%EC%9D%B4%EC%99%95%EC%9D%B4%EB%A9%B4_%EC%A0%9C%EB%84%A4%EB%A6%AD_%EB%A9%94%EC%84%9C%EB%93%9C%EB%A1%9C_%EB%A7%8C%EB%93%A4%EB%9D%BC.md)
+- [Item31 : 한정적 와일드카드를 사용해 API 유연성을 높이라](https://github.com/Dev-Prison/Effective-Java/blob/0e660de3fd673b636cce15fcf49fa4d19ea106e3/app/src/main/java/com/programmers/java/chapt5/item31/Item31%20-%ED%95%9C%EC%A0%95%EC%A0%81%20%EC%99%80%EC%9D%BC%EB%93%9C%EC%B9%B4%EB%93%9C%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%B4%20API%20%EC%9C%A0%EC%97%B0%EC%84%B1%EC%9D%84%20%EB%86%92%EC%9D%B4%EB%9D%BC.md)
