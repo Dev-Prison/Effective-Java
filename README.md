@@ -57,6 +57,9 @@
 - [Item31 : 한정적 와일드카드를 사용해 API 유연성을 높이라](https://github.com/Dev-Prison/Effective-Java/blob/0e660de3fd673b636cce15fcf49fa4d19ea106e3/app/src/main/java/com/programmers/java/chapt5/item31/Item31%20-%ED%95%9C%EC%A0%95%EC%A0%81%20%EC%99%80%EC%9D%BC%EB%93%9C%EC%B9%B4%EB%93%9C%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%B4%20API%20%EC%9C%A0%EC%97%B0%EC%84%B1%EC%9D%84%20%EB%86%92%EC%9D%B4%EB%9D%BC.md)
 - [Item32 : 제네릭과 가변인수를 함께 쓸 때는 신중하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt5/item32/Item32_%EC%A0%9C%EB%84%A4%EB%A6%AD%EA%B3%BC_%EA%B0%80%EB%B3%80%EC%9D%B8%EC%88%98%EB%A5%BC_%ED%95%A8%EA%BB%98_%EC%93%B8_%EB%95%8C%EB%8A%94_%EC%8B%A0%EC%A4%91%ED%95%98%EB%9D%BC.md)
 - [Item33 : 타입안정 이종 컨테이너를 고려하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt5/item33/README.md)
+
+> **6장 : 열거 타입과 ** <br>
+
 - [Item34 : int 상수 대신 열거 타입을 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt6/item34.md)
 - [Item35 : ordinal 메소드 대신 인스턴스 필드를 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt6/item35/item35_ordinal_%EB%A9%94%EC%86%8C%EB%93%9C_%EB%8C%80%EC%8B%A0_%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4_%ED%95%84%EB%93%9C%EB%A5%BC_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
 
