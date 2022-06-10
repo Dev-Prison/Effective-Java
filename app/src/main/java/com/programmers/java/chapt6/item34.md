@@ -48,6 +48,7 @@
 > 문자열 열거 패턴 (String Enum Pattern)
 
 - 정수 대신 문자열 상수를 사용하는 변형 패턴이다.
+
   <img width="308" alt="sd" src="https://user-images.githubusercontent.com/48689213/172990246-f5490143-6f0d-49f7-8b67-35d074db00c7.png">
     
 - 상수의 의미를 출력할 수 있다는 점은 좋지만, 문자열 상수의 이름 대신 문자열 값을 그대로 하드코딩하게 만들기 때문에 좋은 방법이 아니다.
@@ -77,9 +78,12 @@
 > 열거 타입의 장점
 
 - 열거 타입은 컴파일타임 타입 안전성을 제공한다.
+
     <img width="368" alt="Untitled" src="https://user-images.githubusercontent.com/48689213/172990302-3760092a-5b5d-4f31-9c77-b6188d34906b.png">
+    
     - `mintTest` 메소드의 인수는 `Mint`의 두가지 값중 하나임이 확실하며, 다른 타입의 값을 넘기려 하면 컴파일 오류가 난다.
 - 열거 타입에는 각자의 이름공간이 있어서 이름이 같은 상수도 공존할 수 있다.
+
     <img width="471" alt="Untitled (1)" src="https://user-images.githubusercontent.com/48689213/172990340-bbb5faa0-5de3-4b87-af95-c8636d444fb6.png">
 
 - 새로운 상수를 추가하거나 순서를 바꿔도 다시 컴파일 할 필요가 없다.
@@ -93,10 +97,12 @@
     → 각 상수와 연관된 로직 또는 데이터까지 열거 타입 클래스 안에서 다루고 싶을 때
         - 예) `Mint` `ICECREAM`과 `MILK`를 함께 구매 했을때의 가격을 알고 싶다.
     - 열거 타입 상수 각각을 특정 데이터와 연결지으려면 생성자에서 데이터를 받아 인스턴스 필드에 저장하면 된다.
+    
     <img width="500" alt="Untitled (2)" src="https://user-images.githubusercontent.com/48689213/172990390-34c1e786-bbff-42e1-9a57-4b00b7d8e13d.png">
 
 - 열거 타입은 자신 안에 정의된 상수들의 값을 배열에 담아 반환하는 정적 메서드인 `values`를 제공한다.
     - 예) 민트맛 음식 다 주세요
+    
     <img width="403" alt="Untitled (3)" src="https://user-images.githubusercontent.com/48689213/172990447-69fe4449-fc29-4fc5-a79e-fccb46e1ed6b.png">
     <img width="153" alt="Untitled (4)" src="https://user-images.githubusercontent.com/48689213/172990458-1c170a0b-2fc7-47f3-95cf-4e777cadcd31.png">
 
