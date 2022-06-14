@@ -1,0 +1,1 @@
+[[이펙티브자바] item36. 비트 필드 대신 EnumSet을 사용하라.](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item36.-%EB%B9%84%ED%8A%B8-%ED%95%84%EB%93%9C-%EB%8C%80%EC%8B%A0-EnumSet%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
