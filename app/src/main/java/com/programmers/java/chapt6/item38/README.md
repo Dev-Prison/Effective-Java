@@ -1,0 +1,1 @@
+[item 38. 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라.](https://absorbed-cheek-029.notion.site/item38-e1f94d06a0cc4d93990c273d0de71b99)
