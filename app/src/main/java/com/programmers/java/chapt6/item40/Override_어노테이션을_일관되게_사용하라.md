@@ -27,8 +27,8 @@ public class Lion implements Animal{
 ```
 
 ```java
-Animal animal = new Lion();
-animal.sound(); // "어흥" 이 아닌 " 왈 냥 아르르" 
+Animal lion = new Lion();
+lion.sound(); // "어흥" 이 아닌 " 왈 냥 아르르" 
 ```
 
 ## @Override 을 사용하면?
