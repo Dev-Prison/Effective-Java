@@ -63,6 +63,6 @@
 - [Item34 : int 상수 대신 열거 타입을 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt6/item34.md)
 - [Item35 : ordinal 메소드 대신 인스턴스 필드를 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt6/item35/item35_ordinal_%EB%A9%94%EC%86%8C%EB%93%9C_%EB%8C%80%EC%8B%A0_%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4_%ED%95%84%EB%93%9C%EB%A5%BC_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
 - [Item36 : ordinal 메소드 대신 인스턴스 필드를 사용하라](app/src/main/java/com/programmers/java/chapt6/item36/Item36_비트_필드_대신_EnumSet을_사용하라.md)
-- [item37 : EnumMap 을 사용하라](app/src/main/java/com/programmers/java/chapt6/item37/item37_EnumMap을_사용하라.md)
-- [item38 : 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라.](app/src/main/java/com/programmers/java/chapt6/item38/README.md)
-
+- [Item37 : EnumMap 을 사용하라](app/src/main/java/com/programmers/java/chapt6/item37/item37_EnumMap을_사용하라.md)
+- [Item38 : 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라.](app/src/main/java/com/programmers/java/chapt6/item38/README.md)
+- [Item39 : 명명 패턴보다 Annotation을 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt6/item39.md)
