@@ -67,3 +67,5 @@
 - [Item37 : EnumMap 을 사용하라](app/src/main/java/com/programmers/java/chapt6/item37/item37_EnumMap을_사용하라.md)
 - [Item38 : 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라.](app/src/main/java/com/programmers/java/chapt6/item38/README.md)
 - [Item39 : 명명 패턴보다 Annotation을 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt6/item39.md)
+- [Item40 : 어노테이션을 일관되게 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt6/item40/Override_%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%EC%9D%84_%EC%9D%BC%EA%B4%80%EB%90%98%EA%B2%8C_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
+- [Item41 : 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item41.-%EC%A0%95%EC%9D%98%ED%95%98%EB%A0%A4%EB%8A%94-%EA%B2%83%EC%9D%B4-%ED%83%80%EC%9E%85%EC%9D%B4%EB%9D%BC%EB%A9%B4-%EB%A7%88%EC%BB%A4-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
