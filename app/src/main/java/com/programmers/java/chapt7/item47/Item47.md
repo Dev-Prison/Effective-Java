@@ -1,0 +1,1 @@
+[노션링크](https://www.notion.so/Item47-12ee150aad9743da8c366622649961bd)
