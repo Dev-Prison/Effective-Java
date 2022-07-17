@@ -72,3 +72,8 @@
 - [Item42 : 익명 클래스보다 람다를 사용하라](https://morning-paprika-8fa.notion.site/Item42-badd9f20079c4286947ed7843eca011f)
 - [Item43 : 람다보다는 메서드 참조를 사용하라](https://absorbed-cheek-029.notion.site/Item-43-380ddf5f9cac4005954f11ffd966f72b)
 - [Item44 : 표준 함수형 인터페이스를 사용하라](https://www.notion.so/DAY13-feat-09f5b930d8214104846a69b2d71174d6)
+- [Item45 : 스트림은 주의해서 사용하라](app/src/main/java/com/programmers/java/chapt7/item45/스트림은_주의해서_사용하라.md)
+- [Item46 : 스트림에서는 부작용 없는 함수를 사용하라](app/src/main/java/com/programmers/java/chapt7/item46/Item46.md)
+- [Item47 : 반환 타입으로는 스트림보다 컬렉션이 낫다](app/src/main/java/com/programmers/java/chapt7/item47/Item47.md)
+- [Item48 : 스트림 병렬화는 주의해서 사용하라](app/src/main/java/com/programmers/java/chapt7/item48/README.md)
+- [Item49 : 매개변수가 유효한지 검사하라](app/src/main/java/com/programmers/java/chapt7/item49/item49.md)
