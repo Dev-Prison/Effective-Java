@@ -69,6 +69,9 @@
 - [Item39 : 명명 패턴보다 Annotation을 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt6/item39.md)
 - [Item40 : 어노테이션을 일관되게 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt6/item40/Override_%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%EC%9D%84_%EC%9D%BC%EA%B4%80%EB%90%98%EA%B2%8C_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
 - [Item41 : 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item41.-%EC%A0%95%EC%9D%98%ED%95%98%EB%A0%A4%EB%8A%94-%EA%B2%83%EC%9D%B4-%ED%83%80%EC%9E%85%EC%9D%B4%EB%9D%BC%EB%A9%B4-%EB%A7%88%EC%BB%A4-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
+
+> **7장 : 람다와 스트림** <br>
+
 - [Item42 : 익명 클래스보다 람다를 사용하라](https://morning-paprika-8fa.notion.site/Item42-badd9f20079c4286947ed7843eca011f)
 - [Item43 : 람다보다는 메서드 참조를 사용하라](https://absorbed-cheek-029.notion.site/Item-43-380ddf5f9cac4005954f11ffd966f72b)
 - [Item44 : 표준 함수형 인터페이스를 사용하라](https://www.notion.so/DAY13-feat-09f5b930d8214104846a69b2d71174d6)
@@ -76,6 +79,9 @@
 - [Item46 : 스트림에서는 부작용 없는 함수를 사용하라](app/src/main/java/com/programmers/java/chapt7/item46/Item46.md)
 - [Item47 : 반환 타입으로는 스트림보다 컬렉션이 낫다](app/src/main/java/com/programmers/java/chapt7/item47/Item47.md)
 - [Item48 : 스트림 병렬화는 주의해서 사용하라](app/src/main/java/com/programmers/java/chapt7/item48/README.md)
+
+> **8장 : 열거 타입과 애너테이션** <br>
+
 - [Item49 : 매개변수가 유효한지 검사하라](app/src/main/java/com/programmers/java/chapt7/item49/item49.md)
 - [Item50 : 적시에 방어적 복사본을 만들라](https://ultra-stream-0a3.notion.site/Item-50-2f18dc7cc6fc49ac8148b258ab5905b3)
 - [Item51 : 메서드 시그니처를 신중히 설계하라](https://github.com/YHLEE9753/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt8/item51/item51.md)
