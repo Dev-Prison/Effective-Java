@@ -77,3 +77,5 @@
 - [Item47 : 반환 타입으로는 스트림보다 컬렉션이 낫다](app/src/main/java/com/programmers/java/chapt7/item47/Item47.md)
 - [Item48 : 스트림 병렬화는 주의해서 사용하라](app/src/main/java/com/programmers/java/chapt7/item48/README.md)
 - [Item49 : 매개변수가 유효한지 검사하라](app/src/main/java/com/programmers/java/chapt7/item49/item49.md)
+- [Item50 : 적시에 방어적 복사본을 만들라](https://ultra-stream-0a3.notion.site/Item-50-2f18dc7cc6fc49ac8148b258ab5905b3)
+- [Item51 : 메서드 시그니처를 신중히 설계하라](https://github.com/YHLEE9753/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt8/item51/item51.md)
