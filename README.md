@@ -1,9 +1,10 @@
 # Effective-Java
 
 ## ☕️ 스터디 규칙
-- 발표순서 : 이연우 - 이용훈 - 김형욱 - 김병연 - 김수미 
-- 스터디 당일 낮 12시 전까지 발표자는 발표자료를 Github에 업로드 해야 합니다. (지각시 커피 +2)
-- 발표자 외 스터디 시간(오후 10시) 전까지 comment를 통해 주제마다 질문을 한개씩 등록해야 합니다. (지각시 커피 +2)
+- 발표순서 : **이연우** - **김수미** - 이용훈 - 김형욱 - 김병연
+- 스크럼마스터 : **이용훈** - 김병연 - 김수미 - 이연우 - 김형욱
+- 스터디 **전날 오후 8시 전까지** 발표자는 발표자료를 Github에 업로드 해야 합니다. (지각시 커피 +2)
+- 발표자 외 스터디 시간 전까지 comment를 통해 주제마다 질문을 한개씩 등록해야 합니다. (지각시 커피 +2)
   - comment를 달 때, `Files changed` → `Review Changes` 에서 `approve` 도 해주세요.
 - 발표자가 발표자료를 늦게 업로드 해서 다른 팀원들이 comment를 달지 못했다? 발표자가 연대책임 합니다. (커피 +4)
 - 각 단원이 끝날 때마다 각자 한 챕터별로 간략하게 정리를 한다.(한줄에서 세줄 사이)
@@ -85,3 +86,4 @@
 - [Item49 : 매개변수가 유효한지 검사하라](app/src/main/java/com/programmers/java/chapt7/item49/item49.md)
 - [Item50 : 적시에 방어적 복사본을 만들라](https://ultra-stream-0a3.notion.site/Item-50-2f18dc7cc6fc49ac8148b258ab5905b3)
 - [Item51 : 메서드 시그니처를 신중히 설계하라](https://github.com/YHLEE9753/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt8/item51/item51.md)
+- [Item52 : 다중정의는 신중히 사용하라](https://www.notion.so/Item52-6e891e60b11740cc944920225e329da2)
