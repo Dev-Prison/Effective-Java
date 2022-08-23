@@ -24,6 +24,8 @@
 - root `readme` 연결하기
 - 발표자 자료 외 merge 안된 PR merge 하도록 요청하기
 - main branch 최신화 확인하기
+- 발표순서, 스마 Bold 처리 후 README 업데이트
+
 <br>
 
 ## 🍄 Item List
