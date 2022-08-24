@@ -1,0 +1,1 @@
+[item48.스트림 병렬화는 주의해서 사용해라](https://bylog.notion.site/ITEM-48-bf444377089449268b013753112ca4c1)
