@@ -7,8 +7,6 @@
 - 발표자 외 스터디 시간 전까지 comment를 통해 주제마다 질문을 한개씩 등록해야 합니다. (지각시 커피 +2)
   - comment를 달 때, `Files changed` → `Review Changes` 에서 `approve` 도 해주세요.
 - 발표자가 발표자료를 늦게 업로드 해서 다른 팀원들이 comment를 달지 못했다? 발표자가 연대책임 합니다. (커피 +4)
-- 각 단원이 끝날 때마다 각자 한 챕터별로 간략하게 정리를 한다.(한줄에서 세줄 사이)
-  - 그리고 다음날 실시간으로 룰렛을 돌려 발표자를 정한다.
 <br>
 
 ## ⚙️ Git 사용 방식
@@ -91,3 +89,5 @@
 - [Item52 : 다중정의는 신중히 사용하라](https://www.notion.so/Item52-6e891e60b11740cc944920225e329da2)
 - [Item53 : 가변인수는 신중히 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt8/item53/%EA%B0%80%EB%B3%80%EC%9D%B8%EC%88%98%EB%8A%94_%EC%8B%A0%EC%A4%91%ED%9E%88_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
 - [Item54 : null 이 아닌, 빈 컬렉션이나 배열을 반환하라](https://cat-tungsten-c56.notion.site/DAY15-null-325f21f2bf1341a6b4b491fa725fb951)
+- [Item55 : 옵셔널 반환은 신충히 해라](app/src/main/java/com/programmers/java/chapt8/item55/Item55.md)
+- [Item56 : 항상 문서화 주석을 작성하라](app/src/main/java/com/programmers/java/chapt8/item56/Item56_항상_문서화_주석을_작성하라.md)
