@@ -19,10 +19,9 @@
 ## 📌 마스터가 해야할 일
 - 발표자 준비 자료 확인
 - 발표 전 `approve` 확인
-- root `readme` 연결하기
 - 발표자 자료 외 merge 안된 PR merge 하도록 요청하기
-- main branch 최신화 확인하기
-- 발표순서, 스마 Bold 처리 후 README 업데이트
+- main branch 최신화 확인
+- 발표 순서, 스마 Bold 처리 후 README 업데이트
 
 <br>
 
@@ -91,3 +90,5 @@
 - [Item54 : null 이 아닌, 빈 컬렉션이나 배열을 반환하라](https://cat-tungsten-c56.notion.site/DAY15-null-325f21f2bf1341a6b4b491fa725fb951)
 - [Item55 : 옵셔널 반환은 신충히 해라](app/src/main/java/com/programmers/java/chapt8/item55/Item55.md)
 - [Item56 : 항상 문서화 주석을 작성하라](app/src/main/java/com/programmers/java/chapt8/item56/Item56_항상_문서화_주석을_작성하라.md)
+
+> **9장 : 일반적인 프로그래밍 ** <br>
