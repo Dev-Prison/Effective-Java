@@ -1,0 +1,1 @@
+[item57. 지역변수의 범위를 최소화하라](https://www.notion.so/bylog/Item-57-5baaf390b4fd4c84ba1e0236a183eee2)
