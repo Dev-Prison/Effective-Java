@@ -92,3 +92,5 @@
 - [Item56 : 항상 문서화 주석을 작성하라](app/src/main/java/com/programmers/java/chapt8/item56/Item56_항상_문서화_주석을_작성하라.md)
 
 > **9장 : 일반적인 프로그래밍 ** <br>
+- [Item57 : 지역변수의 범위를 최소화하라](https://yeonkus.notion.site/Item-57-5baaf390b4fd4c84ba1e0236a183eee2)
+- [Item58 : 전통적 for 문 보다는 for-each 문을 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/ba74d0690d313e736f41d6a38784497ee36b1b52/app/src/main/java/com/programmers/java/chapt9/item58/%EC%A0%84%ED%86%B5%EC%A0%81_for%EB%AC%B8_%EB%B3%B4%EB%8B%A4%EB%8A%94_for-each_%EB%AC%B8%EC%9D%84_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
