@@ -1,1 +1,1 @@
-[>> item62. 다른타입이 적절하다면 문자열 사용을 피하라](https://yeonees.notion.site/effective-java-021f6698f11b40a68c2a7139214fa983)
+[>>> item62. 다른타입이 적절하다면 문자열 사용을 피하라](https://yeonees.notion.site/effective-java-021f6698f11b40a68c2a7139214fa983)
