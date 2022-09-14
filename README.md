@@ -1,8 +1,8 @@
 # Effective-Java
 
 ## ☕️ 스터디 규칙
-- 발표순서 : 이연우 - **김수미** - 이용훈 - **김형욱** - 김병연
-- 스크럼마스터 : **이용훈** - 김병연 - 김수미 - 이연우 - 김형욱
+- 발표순서 : **이연우** - 김수미 - **이용훈** - 김형욱 - 김병연
+- 스크럼마스터 : 이용훈 - **김병연** - 김수미 - 이연우 - 김형욱
 - 스터디 **전날 오후 8시 전까지** 발표자는 발표자료를 Github에 업로드 해야 합니다. (지각시 커피 +1)
 - 발표자 외 스터디 시간 전까지 comment를 통해 주제마다 질문을 한개씩 등록해야 합니다. (지각시 커피 +1)
   - comment를 달 때, `Files changed` → `Review Changes` 에서 `approve` 도 해주세요.
@@ -98,3 +98,5 @@
 - [Item60 : 정확한 답이 필요하다면 float와 double은 피하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item60.-%EC%A0%95%ED%99%95%ED%95%9C-%EB%8B%B5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%98%EB%8B%A4%EB%A9%B4-float%EC%99%80-double%EC%9D%80-%ED%94%BC%ED%95%98%EB%9D%BC)
 - [Item61 : 박싱된 기본 타입보다는 기본 타입을 사용하라](https://github.com/Dev-Prison/Effective-Java/tree/main/app/src/main/java/com/programmers/java/chapt9/Item61)
 - [Item62 : 다른 타입이 적절하다면 문자열 사용을 피하라](https://github.com/Dev-Prison/Effective-Java/tree/main/app/src/main/java/com/programmers/java/chapt9/item62)
+- [Item63 : 문자열 연결은 느리니 주의하라](https://github.com/Dev-Prison/Effective-Java/tree/main/app/src/main/java/com/programmers/java/chapt9/item63)
+- [Item64 : 객체는 인터페이스를 사용해 참조하라](https://github.com/Dev-Prison/Effective-Java/tree/main/app/src/main/java/com/programmers/java/chapt9/item64)
