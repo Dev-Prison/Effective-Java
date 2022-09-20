@@ -104,3 +104,5 @@
 - [Item66 : 네이티브 메소드는 신중히 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt9/item66/item66_%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EB%A9%94%EC%84%9C%EB%93%9C%EB%8A%94_%EC%8B%A0%EC%A4%91%ED%9E%88_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
 - [Item67 : 최적화는 신중히 하라](app/src/main/java/com/programmers/java/chapt9/item67/README.md)
 - [Item68 : 일반적으로 통용되는 명명규칙을 따르라](app/src/main/java/com/programmers/java/chapt9/item68/item68_일반적으로_통용되는_명명규칙을_따르라.md)
+
+> **10장 : 예외** <br>
