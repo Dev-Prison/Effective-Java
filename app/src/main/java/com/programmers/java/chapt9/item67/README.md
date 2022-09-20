@@ -1,0 +1,1 @@
+[item67. 최적화는 신중히 하라](https://yeonees.notion.site/item-67-0323496d0b6b43fb8ec2f6e8d45b6b61)
