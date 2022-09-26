@@ -1,0 +1,1 @@
+### [Item72. 표준 예외를 사용하라.](https://yeonees.notion.site/Item72-598f9e43666b4558af78df55804ba1a8)
