@@ -1,8 +1,8 @@
 # Effective-Java
 
 ## ☕️ 스터디 규칙
-- 발표순서 : **이연우** - **김수미** - 이용훈 - 김형욱 - 김병연
-- 스크럼마스터 : 이용훈 - 김병연 - 김수미 - 이연우 - **김형욱**
+- 발표순서 : 이연우 - 김수미 - **이용훈** - **김형욱** - 김병연
+- 스크럼마스터 : **이용훈** - 김병연 - 김수미 - 이연우 - 김형욱
 - 스터디 **전날 오후 8시 전까지** 발표자는 발표자료를 Github에 업로드 해야 합니다. (지각시 커피 +1)
 - 발표자 외 스터디 시간 전까지 comment를 통해 주제마다 질문을 한개씩 등록해야 합니다. (지각시 커피 +1)
   - comment를 달 때, `Files changed` → `Review Changes` 에서 `approve` 도 해주세요.
@@ -108,3 +108,7 @@
 > **10장 : 예외** <br>
 - [Item69 : 예외는 진짜 예외 상황에만 사용하라](https://cat-tungsten-c56.notion.site/DAY18-c510100149e14c9ea7e0f4302ba426e4)
 - [Item70 : 복구할 수 있는 상황에는 검사 예외를, 프로그래밍 오류에는 런타임 예외를 사용하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item70.-%EB%B3%B5%EA%B5%AC%ED%95%A0-%EC%88%98-%EB%8A%94-%EC%83%81%ED%99%A9%EC%97%90%EB%8A%94-%EA%B2%80%EC%82%AC-%EC%98%88%EC%99%B8%EB%A5%BC-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%98%A4%EB%A5%98%EC%97%90%EB%8A%94-%EB%9F%B0%ED%83%80%EC%9E%84-%EC%98%88%EC%99%B8%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
+- [Item71 : 필요없는 예외 검사는 피하라](https://morning-paprika-8fa.notion.site/Item71-0b78fe39d3714bc4a204639aeecbb4d0)
+- [Item72 : 표준 예외를 사용하라](https://yeonees.notion.site/Item72-598f9e43666b4558af78df55804ba1a8)
+- [Item73 : 추상화 수준에 맞는 예외를 던져라](https://ultra-stream-0a3.notion.site/Item-73-5f7b366c6c594774ae2b762623c6c7b0)
+- [Item74 : 메서드가 던지는 모든 예외를 문서화하라](https://cat-tungsten-c56.notion.site/DAY-19-a90461233833458ea812fe2666e16793)
