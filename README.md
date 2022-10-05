@@ -85,7 +85,7 @@
 - [Item49 : 매개변수가 유효한지 검사하라](https://cat-tungsten-c56.notion.site/DAY14-ce4b6cbe3a8c434c859e5b24bb51e943)
 - [Item50 : 적시에 방어적 복사본을 만들라](https://ultra-stream-0a3.notion.site/Item-50-2f18dc7cc6fc49ac8148b258ab5905b3)
 - [Item51 : 메서드 시그니처를 신중히 설계하라](https://github.com/YHLEE9753/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt8/item51/item51.md)
-- [Item52 : 다중정의는 신중히 사용하라](https://www.notion.so/Item52-6e891e60b11740cc944920225e329da2)
+- [*Item52 : 다중정의는 신중히 사용하라](https://www.notion.so/Item52-6e891e60b11740cc944920225e329da2)
 - [Item53 : 가변인수는 신중히 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt8/item53/%EA%B0%80%EB%B3%80%EC%9D%B8%EC%88%98%EB%8A%94_%EC%8B%A0%EC%A4%91%ED%9E%88_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
 - [Item54 : null 이 아닌, 빈 컬렉션이나 배열을 반환하라](https://cat-tungsten-c56.notion.site/DAY15-null-325f21f2bf1341a6b4b491fa725fb951)
 - [Item55 : 옵셔널 반환은 신충히 해라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item55.-%EC%98%B5%EC%85%94%EB%84%90-%EB%B0%98%ED%99%98%EC%9D%80-%EC%8B%A0%EC%A4%91%ED%9E%88-%ED%95%98%EB%9D%BC)
