@@ -125,3 +125,5 @@
 - [Item72 : 표준 예외를 사용하라](https://yeonees.notion.site/Item72-598f9e43666b4558af78df55804ba1a8)
 - [*(연우)Item73 : 추상화 수준에 맞는 예외를 던져라](https://ultra-stream-0a3.notion.site/Item-73-5f7b366c6c594774ae2b762623c6c7b0)
 - [Item74 : 메서드가 던지는 모든 예외를 문서화하라](https://cat-tungsten-c56.notion.site/DAY-19-a90461233833458ea812fe2666e16793)
+- [Item75 : 예외의 상세 메시지에 실패 관련 정보를 담으라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item75.-%EC%98%88%EC%99%B8%EC%9D%98-%EC%83%81%EC%84%B8-%EB%A9%94%EC%8B%9C%EC%A7%80%EC%97%90-%EC%8B%A4%ED%8C%A8-%EA%B4%80%EB%A0%A8-%EC%A0%95%EB%B3%B4%EB%A5%BC-%EB%8B%B4%EC%9C%BC%EB%9D%BC)
+- [Item76 : 가능한 한 실패 원자적으로 만들라](https://morning-paprika-8fa.notion.site/Item76-4fee02ecc4414426882e3f30406babf8)
