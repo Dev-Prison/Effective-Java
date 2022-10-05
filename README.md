@@ -97,7 +97,7 @@
 - [Item59 : 라이브러리를 익히고 사용하라](https://cat-tungsten-c56.notion.site/DAY16-3e931f4c73804aa08d99b085c42c4008)
 - [Item60 : 정확한 답이 필요하다면 float와 double은 피하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item60.-%EC%A0%95%ED%99%95%ED%95%9C-%EB%8B%B5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%98%EB%8B%A4%EB%A9%B4-float%EC%99%80-double%EC%9D%80-%ED%94%BC%ED%95%98%EB%9D%BC)
 - [Item61 : 박싱된 기본 타입보다는 기본 타입을 사용하라](https://morning-paprika-8fa.notion.site/Item61-53a128ba88cf493e84a896a46a7d3596)
-- [Item62 : 다른 타입이 적절하다면 문자열 사용을 피하라](https://yeonees.notion.site/effective-java-021f6698f11b40a68c2a7139214fa983)
+- [Item62 : 다른 타입이 적절하다면 문자열 사용을 피하라](https://yeonees.notion.site/item-62-05800a7431a14a7b9b8585c1a32561c5)
 - [Item63 : 문자열 연결은 느리니 주의하라](https://morning-paprika-8fa.notion.site/Item63-71e48a50e595469fa06faa59d97d4313)
 - [Item64 : 객체는 인터페이스를 사용해 참조하라](https://cat-tungsten-c56.notion.site/DAY17-c2e74e8631d249b8be380c986b50e8f2)
 - [Item65 : 리플렉션보다는 인터페이스를 사용하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item65.-%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98%EB%B3%B4%EB%8B%A4%EB%8A%94-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
