@@ -92,7 +92,7 @@
 - [Item56 : 항상 문서화 주석을 작성하라](https://morning-paprika-8fa.notion.site/Item56-API-e703f9682112416db7486bc366e485c3)
 
 > **9장 : 일반적인 프로그래밍** <br>
-- [Item57 : 지역변수의 범위를 최소화하라](https://yeonkus.notion.site/Item-57-5baaf390b4fd4c84ba1e0236a183eee2)
+- [*Item57 : 지역변수의 범위를 최소화하라](https://yeonkus.notion.site/Item-57-5baaf390b4fd4c84ba1e0236a183eee2)
 - [Item58 : 전통적 for 문 보다는 for-each 문을 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt9/item58/%EC%A0%84%ED%86%B5%EC%A0%81_for%EB%AC%B8_%EB%B3%B4%EB%8B%A4%EB%8A%94_for-each_%EB%AC%B8%EC%9D%84_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
 - [Item59 : 라이브러리를 익히고 사용하라](https://cat-tungsten-c56.notion.site/DAY16-3e931f4c73804aa08d99b085c42c4008)
 - [Item60 : 정확한 답이 필요하다면 float와 double은 피하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item60.-%EC%A0%95%ED%99%95%ED%95%9C-%EB%8B%B5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%98%EB%8B%A4%EB%A9%B4-float%EC%99%80-double%EC%9D%80-%ED%94%BC%ED%95%98%EB%9D%BC)
