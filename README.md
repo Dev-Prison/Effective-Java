@@ -39,7 +39,7 @@
 - [Item15 : 클래스와 멤버의 접근 권한을 최소화하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt4/item15/item15_%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80_%EB%A9%A4%EB%B2%84%EC%9D%98_%EC%A0%91%EA%B7%BC%EA%B6%8C%ED%95%9C%EC%9D%84_%EC%B5%9C%EC%86%8C%ED%99%94_%ED%95%98%EB%9D%BC_%EB%B0%9C%ED%91%9C.md)
 - [Item16 : public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt4/item16/Item16_public%ED%81%B4%EB%9E%98%EC%8A%A4%EC%97%90%EC%84%9C%EB%8A%94_public%ED%95%84%EB%93%9C%EA%B0%80_%EC%95%84%EB%8B%8C_%EC%A0%91%EA%B7%BC%EC%9E%90%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
 - [Item17 : 변경 가능성을 최소화하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt4/item17/Item17_%EB%B3%80%EA%B2%BD_%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%84_%EC%B5%9C%EC%86%8C%ED%99%94%ED%95%98%EB%9D%BC.md)
-- [*Item18 : 상속보다는 컴포지션을 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt4/item18/README.md)
+- [*Item18 : 상속보다는 컴포지션을 사용하라](https://absorbed-cheek-029.notion.site/item18-5153816f67e64be3b7826ae7773b29e9)
 - [Item19 : 상속을 고려해 설계하고 문서화하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt4/item19/Item19.md)
 - [Item20 : 추상 클래스보다는 인터페이스를 우선하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt4/item20/Item20_%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4%EB%B3%B4%EB%8B%A4%EB%8A%94_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.md)
 - [Item21 : 인터페이스는 구현하는 쪽을 생각해 설계하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt4/item21/Item21_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%8A%94_%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94_%EC%AA%BD%EC%9D%84_%EC%83%9D%EA%B0%81%ED%95%B4_%EC%84%A4%EA%B3%84%ED%95%98%EB%9D%BC.md)
@@ -57,7 +57,7 @@
 - [Item30 : 이왕이면 제네릭 메서드로 만들라](https://github.com/Dev-Prison/Effective-Java/blob/ynoolee/app/src/main/java/com/programmers/java/chapt5/item30/item30_%EC%9D%B4%EC%99%95%EC%9D%B4%EB%A9%B4_%EC%A0%9C%EB%84%A4%EB%A6%AD_%EB%A9%94%EC%84%9C%EB%93%9C%EB%A1%9C_%EB%A7%8C%EB%93%A4%EB%9D%BC.md)
 - [Item31 : 한정적 와일드카드를 사용해 API 유연성을 높이라](https://github.com/Dev-Prison/Effective-Java/blob/0e660de3fd673b636cce15fcf49fa4d19ea106e3/app/src/main/java/com/programmers/java/chapt5/item31/Item31%20-%ED%95%9C%EC%A0%95%EC%A0%81%20%EC%99%80%EC%9D%BC%EB%93%9C%EC%B9%B4%EB%93%9C%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%B4%20API%20%EC%9C%A0%EC%97%B0%EC%84%B1%EC%9D%84%20%EB%86%92%EC%9D%B4%EB%9D%BC.md)
 - [Item32 : 제네릭과 가변인수를 함께 쓸 때는 신중하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item32.-%EC%A0%9C%EB%84%A4%EB%A6%AD%EA%B3%BC-%EA%B0%80%EB%B3%80%EC%9D%B8%EC%88%98%EB%A5%BC-%ED%95%A8-%EC%93%B8-%EB%95%8C%EB%8A%94-%EC%8B%A0%EC%A4%91%ED%95%98%EB%9D%BC)
-- [*Item33 : 타입안정 이종 컨테이너를 고려하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt5/item33/README.md)
+- [*Item33 : 타입안정 이종 컨테이너를 고려하라](https://absorbed-cheek-029.notion.site/item33-009fd935813c4247a028f34a5ba522b0)
 
 > **6장 : 열거 타입과 애너테이션** <br>
 
@@ -65,7 +65,7 @@
 - [Item35 : ordinal 메소드 대신 인스턴스 필드를 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt6/item35/item35_ordinal_%EB%A9%94%EC%86%8C%EB%93%9C_%EB%8C%80%EC%8B%A0_%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4_%ED%95%84%EB%93%9C%EB%A5%BC_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
 - [Item36 : 비트 필드 대신 EnumSet을 사용하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item36.-%EB%B9%84%ED%8A%B8-%ED%95%84%EB%93%9C-%EB%8C%80%EC%8B%A0-EnumSet%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
 - [Item37 : EnumMap 을 사용하라](https://morning-paprika-8fa.notion.site/Item37-EnumMap-54f6685b29d24a5bba0d749770bb2aa2)
-- [*Item38 : 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라.](app/src/main/java/com/programmers/java/chapt6/item38/README.md)
+- [*Item38 : 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라.](https://absorbed-cheek-029.notion.site/item38-e1f94d06a0cc4d93990c273d0de71b99)
 - [Item39 : 명명 패턴보다 Annotation을 사용하라](https://www.notion.so/DAY12-Annotation-68f703aa60174f4e80e05c5399997745)
 - [Item40 : 어노테이션을 일관되게 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt6/item40/Override_%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%EC%9D%84_%EC%9D%BC%EA%B4%80%EB%90%98%EA%B2%8C_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
 - [Item41 : 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item41.-%EC%A0%95%EC%9D%98%ED%95%98%EB%A0%A4%EB%8A%94-%EA%B2%83%EC%9D%B4-%ED%83%80%EC%9E%85%EC%9D%B4%EB%9D%BC%EB%A9%B4-%EB%A7%88%EC%BB%A4-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
@@ -78,7 +78,7 @@
 - [Item45 : 스트림은 주의해서 사용하라](app/src/main/java/com/programmers/java/chapt7/item45/스트림은_주의해서_사용하라.md)
 - [Item46 : 스트림에서는 부작용 없는 함수를 사용하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item46.-%EC%8A%A4%ED%8A%B8%EB%A6%BC%EC%97%90%EC%84%9C%EB%8A%94-%EB%B6%80%EC%9E%91%EC%9A%A9-%EC%97%86%EB%8A%94-%ED%95%A8%EC%88%98%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC-baa2kzb7)
 - [Item47 : 반환 타입으로는 스트림보다 컬렉션이 낫다](https://morning-paprika-8fa.notion.site/Item47-12ee150aad9743da8c366622649961bd)
-- [*Item48 : 스트림 병렬화는 주의해서 사용하라](app/src/main/java/com/programmers/java/chapt7/item48/README.md)
+- [*Item48 : 스트림 병렬화는 주의해서 사용하라](https://bylog.notion.site/ITEM-48-bf444377089449268b013753112ca4c1)
 
 > **8장 : 열거 타입과 애너테이션** <br>
 
