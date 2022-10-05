@@ -26,6 +26,19 @@
 <br>
 
 ## 🍄 Item List
+
+> **2장 : 객체 생성과 파괴** <br>
+
+- Item1 : 생성자 대신 정적 팩토리 메서드를 고려하라
+- [Item2 : 생성자에 매개변수가 많다면 빌더를 고려하자](https://github.com/YHLEE9753/ReadingRecord/blob/master/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94/Chapter2_%EA%B0%9D%EC%B2%B4%EC%83%9D%EC%84%B1%EA%B3%BC%ED%8C%8C%EA%B4%B4/Item2_%EC%83%9D%EC%84%B1%EC%9E%90%EC%97%90_%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%EA%B0%80_%EB%A7%8E%EB%8B%A4%EB%A9%B4_%EB%B9%8C%EB%8D%94%EB%A5%BC_%EA%B3%A0%EB%A0%A4%ED%95%98%EC%9E%90.md)
+- [Item3 : private 생성자 혹은 enum 타입으로 싱글톤임을 보증하라](https://cat-tungsten-c56.notion.site/DAY1-3-eb593dad6c9941b0b4c787ed5e6be3bf)
+- [Item4 : 인스턴스화를 막으려거든 private 생성자를 사용하라](https://cat-tungsten-c56.notion.site/DAY2-4-3f1ba602a5604354b7980f05b28a1996)
+- [Item5 : 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](https://cat-tungsten-c56.notion.site/DAY2-5-e7d4fc8086374b4eb0cf17a47f796ce4)
+- Item6 : 불필요한 객체 생성을 피하라
+- [Item7 : 다 쓴 객체 참조를 해제하라](https://cat-tungsten-c56.notion.site/DAY3-7-5606f48a97ac45caa62958a27893f081)
+- Item8 : finalizer와 cleaner 사용을 피하라
+- [Item9 : try-finally보다는 try-with-resources를 사용하라](https://cat-tungsten-c56.notion.site/DAY4-9-512102eb72db408aa6ef5e4b7a32d9bf)
+
 > **3장 : 모든 객체의 공통 메서드** <br>
 
 - [Item10 : equals는 일반 규약을 지켜 재정의하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt3/item10/item10_%EB%B0%9C%ED%91%9C.md)
