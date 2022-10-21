@@ -129,3 +129,7 @@
 - [Item74 : 메서드가 던지는 모든 예외를 문서화하라](https://cat-tungsten-c56.notion.site/DAY-19-a90461233833458ea812fe2666e16793)
 - [Item75 : 예외의 상세 메시지에 실패 관련 정보를 담으라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item75.-%EC%98%88%EC%99%B8%EC%9D%98-%EC%83%81%EC%84%B8-%EB%A9%94%EC%8B%9C%EC%A7%80%EC%97%90-%EC%8B%A4%ED%8C%A8-%EA%B4%80%EB%A0%A8-%EC%A0%95%EB%B3%B4%EB%A5%BC-%EB%8B%B4%EC%9C%BC%EB%9D%BC)
 - [Item76 : 가능한 한 실패 원자적으로 만들라](https://morning-paprika-8fa.notion.site/Item76-4fee02ecc4414426882e3f30406babf8)
+- [Item77 : 예외를 무시하지 말라](https://yeonees.notion.site/item77-6b2b12f1d91f433491388e3547031926)
+
+> **11장 : 동시성** <br>
+- [Item78 : 공유 중인 가변 데이터는 동기화해 사용하라](https://github.com/Dev-Prison/Effective-Java/blob/ynoolee/app/src/main/java/com/programmers/java/chapt11/item78/item78_%EA%B3%B5%EC%9C%A0_%EC%A4%91%EC%9D%B8_%EA%B0%80%EB%B3%80_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94_%EB%8F%99%EA%B8%B0%ED%99%94_%ED%95%B4_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
