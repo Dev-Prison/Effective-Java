@@ -137,3 +137,5 @@
 - [Item80 : 스레드보다는 실행자, 태스크, 스트림을 사용하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item80.-%EC%8A%A4%EB%A0%88%EB%93%9C%EB%B3%B4%EB%8B%A4%EB%8A%94-%EC%8B%A4%ED%96%89%EC%9E%90-%ED%83%9C%EC%8A%A4%ED%81%AC-%EC%8A%A4%ED%8A%B8%EB%A6%BC%EC%9D%84-%EC%95%A0%EC%9A%A9%ED%95%98%EB%9D%BC)
 - [Item81 : wait와 notify보다는 동시성 유틸리티를 애용하라](https://morning-paprika-8fa.notion.site/Item81-wait-notify-d10570a6377a42c0988f2228dc9c6673)
 - Item82 : 스레드 안전성 수준을 문서화하라
+- [Item83 : 지연 초기화는 신중히 사용하라](https://www.notion.so/Item-83-20e159976d1c49dfa9bc9ca49c5c8ae1)
+- [Item84 : 프로그램의 동작을 스레드 스케줄러에 기대지 말라](https://cat-tungsten-c56.notion.site/DAY-21-938ed29bbd4f4018b86250fdb39dd2ff)
