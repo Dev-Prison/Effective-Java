@@ -27,7 +27,7 @@ Item 50 에서 보았던 예시다.
 
 Date 가 가변 객체이기 때문에 , 가변객체를 필드로 갖는 Period 를 불변객체로 만들어 주기 위해 아래와 같은 “방어적 복사”, “검증” 을 수행했다.
 
-```c
+```java
 public final class Period {
 	private final Date start;
 	private final Date end; 
@@ -147,7 +147,7 @@ public class MutablePeriod {
 ```
 
 ```java
-		MutablePeriod mp = new MutablePeriod();
+    MutablePeriod mp = new MutablePeriod();
     Period p = mp.period;
     Date pEnd = mp.end;
 
@@ -208,3 +208,4 @@ private void readObject(ObjectInputStream s) throws IOException, ClassNotFoundEx
 # 참조
 
 [https://snyk.io/blog/serialization-and-deserialization-in-java/](https://snyk.io/blog/serialization-and-deserialization-in-java/)
+https://github.com/Meet-Coder-Study/book-effective-java/blob/6b07b068c93cbe22cfc52162547b94d68b70e519/12%EC%9E%A5/88_readObject_%EB%A9%94%EC%84%9C%EB%93%9C%EB%8A%94_%EB%B0%A9%EC%96%B4%EC%A0%81%EC%9C%BC%EB%A1%9C_%EC%9E%91%EC%84%B1%ED%95%98%EB%9D%BC_%EA%B9%80%EA%B4%91%ED%9B%88.md
