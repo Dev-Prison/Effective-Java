@@ -142,7 +142,7 @@
 
 > **12장 : 직렬화** <br>
 - [Item85 : 자바 직렬화의 대안을 찾으라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item85.-%EC%9E%90%EB%B0%94-%EC%A7%81%EB%A0%AC%ED%99%94%EC%9D%98-%EB%8C%80%EC%95%88%EC%9D%84-%EC%B0%BE%EC%95%84%EB%9D%BC)
-- Item86 : Serializable을 구현할지는 신중히 결정하라
+- [Item86 : Serializable을 구현할지는 신중히 결정하라](https://morning-paprika-8fa.notion.site/Item86-Serializable-7f3d4cabda944dd7b2fbe0ac59475aa0)
 - Item87 : 커스텀 직렬화 형태를 고려해보라
 - [Item88 : readObject 메서드는 방어적으로 작성하라](https://github.com/Dev-Prison/Effective-Java/blob/8ffd928c7195a30e02d5eb8338e6a0e665e268b2/app/src/main/java/com/programmers/java/chapt12/item88/item88_readObject_%EB%A9%94%EC%86%8C%EB%93%9C%EB%8A%94_%EB%B0%A9%EC%96%B4%EC%A0%81%EC%9C%BC%EB%A1%9C_%EC%9E%91%EC%84%B1%ED%95%98%EB%9D%BC.md)
 - Item89 : 인스턴스 수를 통제해야 한다면 readResolve 보다는 열거 타입을 사용하라
