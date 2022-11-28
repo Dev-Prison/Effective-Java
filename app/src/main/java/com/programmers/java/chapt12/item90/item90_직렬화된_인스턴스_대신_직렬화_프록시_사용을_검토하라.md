@@ -220,3 +220,5 @@ public final class Period implements Serializable {
 # 참조
 
 [https://docs.oracle.com/javase/7/docs/platform/serialization/spec/serial-arch.html](https://docs.oracle.com/javase/7/docs/platform/serialization/spec/serial-arch.html)
+
+[https://docs.oracle.com/javase/7/docs/platform/serialization/spec/output.html#5324](https://docs.oracle.com/javase/7/docs/platform/serialization/spec/output.html#5324)
