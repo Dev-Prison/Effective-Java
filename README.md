@@ -1,8 +1,8 @@
 # Effective Java 이펙티브 자바
 
 ## ☕️ 스터디 규칙
-- 발표순서 : 이연우 - **김수미** - **이용훈** - 김형욱 - 김병연
-- 스크럼마스터 : 이용훈 - 김병연 - **김수미** - 이연우 - 김형욱
+- 발표순서 : 이연우 - 김수미 - 이용훈 - 김형욱 - 김병연
+- 스크럼마스터 : 이용훈 - 김병연 - 김수미 - 이연우 - 김형욱
 - 스터디 **전날 오후 8시 전까지** 발표자는 발표자료를 Github에 업로드 해야 합니다. (지각시 커피 +1)
 - 발표자 외 스터디 시간 전까지 comment를 통해 주제마다 질문을 한개씩 등록해야 합니다. (지각시 커피 +1)
   - comment를 달 때, `Files changed` → `Review Changes` 에서 `approve` 도 해주세요.
@@ -143,7 +143,7 @@
 > **12장 : 직렬화** <br>
 - [Item85 : 자바 직렬화의 대안을 찾으라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item85.-%EC%9E%90%EB%B0%94-%EC%A7%81%EB%A0%AC%ED%99%94%EC%9D%98-%EB%8C%80%EC%95%88%EC%9D%84-%EC%B0%BE%EC%95%84%EB%9D%BC)
 - [Item86 : Serializable을 구현할지는 신중히 결정하라](https://morning-paprika-8fa.notion.site/Item86-Serializable-7f3d4cabda944dd7b2fbe0ac59475aa0)
-- Item87 : 커스텀 직렬화 형태를 고려해보라
+- [Item87 : 커스텀 직렬화 형태를 고려해보라](https://cat-tungsten-c56.notion.site/DAY-22-3eedd057ca4f401f9963861365c7e126)
 - [Item88 : readObject 메서드는 방어적으로 작성하라](https://github.com/Dev-Prison/Effective-Java/blob/8ffd928c7195a30e02d5eb8338e6a0e665e268b2/app/src/main/java/com/programmers/java/chapt12/item88/item88_readObject_%EB%A9%94%EC%86%8C%EB%93%9C%EB%8A%94_%EB%B0%A9%EC%96%B4%EC%A0%81%EC%9C%BC%EB%A1%9C_%EC%9E%91%EC%84%B1%ED%95%98%EB%9D%BC.md)
-- Item89 : 인스턴스 수를 통제해야 한다면 readResolve 보다는 열거 타입을 사용하라
-- Item90 : 직렬화된 인스턴스 대신 직렬화 프록시 사용을 검토하라
+- [Item89 : 인스턴스 수를 통제해야 한다면 readResolve 보다는 열거 타입을 사용하라](https://velog.io/@yhlee9753/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%EC%9E%90%EB%B0%94-item89.-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%88%98%EB%A5%BC-%ED%86%B5%EC%A0%9C%ED%95%B4%EC%95%BC-%ED%95%9C%EB%8B%A4%EB%A9%B4-readResolve-%EB%B3%B4%EB%8B%A4%EB%8A%94-%EC%97%B4%EA%B1%B0-%ED%83%80%EC%9E%85%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC)
+- [Item90 : 직렬화된 인스턴스 대신 직렬화 프록시 사용을 검토하라](https://github.com/Dev-Prison/Effective-Java/blob/main/app/src/main/java/com/programmers/java/chapt12/item90/item90_%EC%A7%81%EB%A0%AC%ED%99%94%EB%90%9C_%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4_%EB%8C%80%EC%8B%A0_%EC%A7%81%EB%A0%AC%ED%99%94_%ED%94%84%EB%A1%9D%EC%8B%9C_%EC%82%AC%EC%9A%A9%EC%9D%84_%EA%B2%80%ED%86%A0%ED%95%98%EB%9D%BC.md)
